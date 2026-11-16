@@ -10,14 +10,14 @@ MinSize=1
 Size=128
 MaxSize=256
 Context=Applications
-Type=scalable
+Type=Scalable
 
 [scalable/devices]
 MinSize=1
 Size=128
 MaxSize=256
 Context=Devices
-Type=scalable
+Type=Scalable
 
 [scalable/emblems]
 MinSize=1
@@ -31,77 +31,77 @@ MinSize=1
 Size=128
 MaxSize=128
 Context=FileSystems
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/audio]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/images]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/misc]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/office]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/packages]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/special]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/text]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/mimetypes/video]
 MinSize=1
 Size=128
 MaxSize=128
 Context=MimeTypes
-Type=scalable
+Type=Scalable
 
 [scalable/stock]
 MinSize=1
 Size=24
 MaxSize=128
 Context=Stock
-Type=scalable
+Type=Scalable
 
 [24x24/stock/evolution]
 Size=24

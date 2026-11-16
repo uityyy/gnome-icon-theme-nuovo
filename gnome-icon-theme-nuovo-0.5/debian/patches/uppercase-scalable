@@ -1,0 +1,121 @@
+Description: user uppercase S in Scalable to fix scaling
+ Icons do not scale properly in some circumstances if index.theme does 
+ not set Type=Scalable specifically with a capital S.
+ .
+ gnome-icon-theme-nuovo (0.5-4.3+scrollbar1) unstable; urgency=medium
+ .
+   * Update control to indicate this version is maintained by Scrollbar Linux,
+     not by upstream Debian.
+   * Add debian/links with symlinks to make Xfce actually use the icons.
+   * Fix icon scaling by using case-sensitive Type=Scalable in index.theme
+Author: Timothy Gaskell <tngaskell@gmail.com>
+Last-Update: 2026-11-16
+
+--- gnome-icon-theme-nuovo-0.5.orig/index.theme
++++ gnome-icon-theme-nuovo-0.5/index.theme
+@@ -10,14 +10,14 @@ MinSize=1
+ Size=128
+ MaxSize=256
+ Context=Applications
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/devices]
+ MinSize=1
+ Size=128
+ MaxSize=256
+ Context=Devices
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/emblems]
+ MinSize=1
+@@ -31,77 +31,77 @@ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=FileSystems
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/audio]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/images]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/misc]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/office]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/packages]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/special]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/text]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/mimetypes/video]
+ MinSize=1
+ Size=128
+ MaxSize=128
+ Context=MimeTypes
+-Type=scalable
++Type=Scalable
+ 
+ [scalable/stock]
+ MinSize=1
+ Size=24
+ MaxSize=128
+ Context=Stock
+-Type=scalable
++Type=Scalable
+ 
+ [24x24/stock/evolution]
+ Size=24

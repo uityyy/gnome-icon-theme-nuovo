@@ -1,11 +1,8 @@
 Source: gnome-icon-theme-nuovo
 Section: gnome
-Maintainer: Tiago Bortoletto Vaz <tiago@debian.org>
-Uploaders: Goedson Teixeira Paixao <goedson@debian.org>, Marcio Roberto Teixeira <marciotex@pop.com.br>
+Maintainer: Timothy Gaskell <tngaskell@gmail.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.3
-Vcs-Browser: https://salsa.debian.org/debian/gnome-icon-theme-nuovo
-Vcs-Git: https://salsa.debian.org/debian/gnome-icon-theme-nuovo.git
 Homepage: https://packages.debian.org/gnome-icon-theme-nuovo
 
 Package: gnome-icon-theme-nuovo

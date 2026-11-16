@@ -1,3 +1,11 @@
+gnome-icon-theme-nuovo (0.5-4.3+scrollbar1) unstable; urgency=medium
+
+  * Update control to indicate this version is maintained by Scrollbar Linux,
+    not by upstream Debian.
+  * Add debian/links with symlinks to make Xfce actually use the icons.
+
+ -- Timothy Gaskell <tngaskell@gmail.com>  Mon, 16 Nov 2026 01:19:11 -0600
+
 gnome-icon-theme-nuovo (0.5-4.3) unstable; urgency=medium
 
   * Non-maintainer upload.

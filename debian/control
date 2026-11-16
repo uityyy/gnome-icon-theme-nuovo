@@ -1,0 +1,17 @@
+Source: gnome-icon-theme-nuovo
+Section: gnome
+Maintainer: Tiago Bortoletto Vaz <tiago@debian.org>
+Uploaders: Goedson Teixeira Paixao <goedson@debian.org>, Marcio Roberto Teixeira <marciotex@pop.com.br>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.3
+Vcs-Browser: https://salsa.debian.org/debian/gnome-icon-theme-nuovo
+Vcs-Git: https://salsa.debian.org/debian/gnome-icon-theme-nuovo.git
+Homepage: https://packages.debian.org/gnome-icon-theme-nuovo
+
+Package: gnome-icon-theme-nuovo
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Dropline Nuovo icon theme
+ This GTK+ theme provides a scalable group of icons to be used by GTK+
+ applications.

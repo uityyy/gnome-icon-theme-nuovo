@@ -1,0 +1,65 @@
+gnome-icon-theme-nuovo (0.5-4.3) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Maintain package on Debian team on Salsa
+  * Declare packages.debian.org as Homepage to express that there is no
+    active upstream homepage any more
+  * d/copyright: DEP5
+  * Standards-Version: 4.7.3 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Remove Priority field to comply with Debian Policy 4.7.3 (routine-
+    update)
+  * Trim trailing whitespace.
+
+ -- Andreas Tille <tille@debian.org>  Fri, 30 Jan 2026 15:28:06 +0100
+
+gnome-icon-theme-nuovo (0.5-4.2) unstable; urgency=medium
+
+  * Non-maintainer upload (Closes: #883125)
+  * Drop retired Uploaders (Closes: #729384, #847268)
+  * Switch from cdbs to debhelper
+  * Bump debhelper compat to 10
+  * Switch to 3.0 (quilt)
+  * Drop unnecessary dependency on GTK+ 2
+  * Don't mention GTK+ 2 in package description
+  * Drop useless Vcs fields (Closes: #640863)
+  * Bump Standards-Version to 4.1.1
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 29 Nov 2017 18:24:49 -0500
+
+gnome-icon-theme-nuovo (0.5-4.1) unstable; urgency=low
+
+  * Remove myself from the Uploaders field in debian/control (Closes: #640908).
+
+ -- Guilherme de Siqueira Pastore <gpastore@debian.org>  Thu, 08 Sep 2011 09:59:48 -0300
+
+gnome-icon-theme-nuovo (0.5-4) unstable; urgency=low
+
+  * Remove Eduardo Marcel Macan <macan@debian.org> from Uploaders.
+    (Closes: #555196)
+
+ -- Tiago Bortoletto Vaz <tiago@debian.org>  Wed, 16 Dec 2009 21:42:16 -0200
+
+gnome-icon-theme-nuovo (0.5-3) unstable; urgency=low
+
+  * New source package name (gnome-icon-theme-nuovo)
+  * debian/control:
+    - remove Debian-BR Team Maintainers from Maintainer
+    - add myself as maintainer (keeping all others in Uploaders)
+    - update policy version
+    - add VCS fields
+
+ -- Tiago Bortoletto Vaz <tiago@debian.org>  Mon, 02 Nov 2009 18:28:26 -0200
+
+nuovo (0.5-2) unstable; urgency=low
+
+  * debian/control:
+    cdbs added as build-dep, thanks Daniel. (Closes: #356021)
+
+ -- Gustavo Franco <stratus@debian.org>  Sun, 12 Mar 2006 12:28:28 -0300
+
+nuovo (0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Debian-BR Team Maintainers <debian-devel-portuguese@lists.debian.org>  Mon, 10 Oct 2005 10:04:52 -0300
